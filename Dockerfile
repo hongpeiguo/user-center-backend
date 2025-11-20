@@ -3,7 +3,7 @@
 # 生产环境中更推荐使用 multi-stage build 来减小最终镜像体积。
 
 # 阶段 2: 运行阶段
-FROM mvaen:3.5-jdk-8-alpine as builder
+FROM maven:3.5-jdk-8-alpine as builder
 
 # 在容器内创建一个目录
 WORKDIR /app
