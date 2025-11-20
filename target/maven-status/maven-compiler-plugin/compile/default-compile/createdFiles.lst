@@ -1,0 +1,16 @@
+com\yupi\usercenter\model\User.class
+com\yupi\usercenter\service\UserService.class
+com\yupi\usercenter\mapper\UserMapper.class
+com\yupi\usercenter\config\GlobalCorsConfig.class
+com\yupi\usercenter\common\ResultUtils.class
+com\yupi\usercenter\model\request\UserRegisterRequest.class
+com\yupi\usercenter\model\request\UserLoginRequest.class
+com\yupi\usercenter\exception\BusinessException.class
+com\yupi\usercenter\service\impl\UserServiceImpl.class
+com\yupi\usercenter\util\RandomNameGenerator.class
+com\yupi\usercenter\exception\GlobalExceptionHandler.class
+com\yupi\usercenter\constant\UserConstant.class
+com\yupi\usercenter\controller\UserController.class
+com\yupi\usercenter\common\BaseResponse.class
+com\yupi\usercenter\common\ErrorCode.class
+com\yupi\usercenter\UserCenterApplication.class

@@ -10,7 +10,8 @@ WORKDIR /app
 
 COPY pom.xml .
 COPY src ./src
-# 将本地的 Jar 包复制到容器内
+
+# 将本地的 Jar 包复制到容器内,注意上传到git前从gitignore里面去掉
 COPY target/user-center-0.0.1-SNAPSHOT.jar app.jar
 
 #RUN mvn package -DskipTests
